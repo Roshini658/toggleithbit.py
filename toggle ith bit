@@ -1,0 +1,14 @@
+# number
+n = 10
+
+# bit position (0-based from right)
+i = 1
+
+# create a mask with ith bit set
+mask = 1 << i
+
+# toggle ith bit using XOR operation
+n = n ^ mask
+
+# print updated number
+print(n)
